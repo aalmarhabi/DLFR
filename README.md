@@ -12,7 +12,6 @@ scikit-learn >= 0.20.0
 sklearn >= 0.0
 tensorboard >= 1.10.0
 tensorflow >= 1.10.1
-
 ```
 
 # How to navigate this repository?
@@ -22,10 +21,10 @@ You have the three main scripts to run the project. The predict.py used to predi
 Version 1: random images that have a specified text init with a different environment.
     Used open library by hardikvasa called google-images-download. It's a python script that allows you to search and download hundreds of images (https://github.com/hardikvasa/google-images-download)
     You can use different keywords to specify the size, the type, and the images format. 
-    
-      ```
+ 
+```
       $ for example : $googleimagesdownload --keywords "playground" --limit 20 --color red
-      ```
+```
 
       
 Version 2: random images of the specified language alone with white background.
@@ -40,6 +39,9 @@ Almost every python script in this project has parse arguments you can check bef
 ```
 $ python predict.py --model location/simple_nn1.model --label-bin location/simple_nn_lb1.pickle -w 32 -e 32 -f 1
 ```
+
+# Website
+Please check out the project website, .
 
 # Contribute 
 Feel free to fork this repository and make your own changes.
