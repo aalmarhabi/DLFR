@@ -41,7 +41,7 @@ $ python predict.py --model location/simple_nn1.model --label-bin location/simpl
 ```
 
 # Website
-Please check out the project website,https://sites.google.com/stevens.edu/font-recognition/.
+Please check out the project website,https://sites.google.com/stevens.edu/font-recognition/. Also, please check out the Youtube video about the project, https://www.youtube.com/watch?feature=youtu.be&v=iBfhAOs8fxo.
 
 # Contribute 
 Feel free to fork this repository and make your own changes.
