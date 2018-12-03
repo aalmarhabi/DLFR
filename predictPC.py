@@ -1,10 +1,10 @@
 '''
 how to call the program
 python predict.py
--m 'output/simple_nn1.model'
--l 'output/simple_nn_lb1.pickle'
+-m location/simple_nn1.model
+-l location/simple_nn_lb1.pickle
 -w 32 -e 32 -f 1
--i 'test_images/arabic.jpg'
+-f 1 (enter 1 for SNN and -1 for CNN)
 
 '''
 # import the necessary packages
@@ -37,12 +37,18 @@ args = vars(ap.parse_args())
 
 
 # load the model and label binarizer
+print('-'*90)
 print("[INFO] loading network and label binarizer...")
+print('-'*90)
+
 model = load_model(args["model"])
 lb = pickle.loads(open(args["label_bin"], "rb").read())
 
 # initialize the video stream and allow the camera sensor to warm up
+print('-'*90)
 print("[INFO] starting video stream")
+print('-'*90)
+
 # for pc cam
 vs = VideoStream(src=0).start()
 time.sleep(2.0)
@@ -98,6 +104,9 @@ while True:
         break
 
 # close all windows
+print('-'*90)
 print("[INFO] closing up")
+print('-'*90)
+
 cv2.destroyAllWindows()
 vs.stop()
