@@ -10,8 +10,8 @@ Pillow >= 5.3.0
 pyparsing >= 2.2.2
 scikit-learn >= 0.20.0
 tensorflow >= 1.10.1
-imutils==0.5.1
-opencv=>3.4.4
+imutils == 0.5.1
+opencv >= 3.4.4
 ```
 
 # How to navigate this repository?
