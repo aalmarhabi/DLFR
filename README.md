@@ -9,7 +9,6 @@ numpy >= 1.15.2
 Pillow >= 5.3.0
 pyparsing >= 2.2.2
 scikit-learn >= 0.20.0
-sklearn >= 0.0
 tensorboard >= 1.10.0
 tensorflow >= 1.10.1
 ```
