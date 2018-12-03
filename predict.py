@@ -49,7 +49,10 @@ else:
                            image.shape[2]))
 
 # load the model and label binarizer
+print('-'*90)
 print("[INFO] loading network and label binarizer...")
+print('-'*90)
+
 model = load_model(args["model"])
 lb = pickle.loads(open(args["label_bin"], "rb").read())
 
