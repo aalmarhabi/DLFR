@@ -15,7 +15,7 @@ opencv >= 3.4.4
 ```
 
 # How to navigate this repository?
-You have the three main scripts to run the project. The predict.py used to predict language from given image and both the other file use live-stream video feeds to make a prediction (predictPC for laptops and predictRPi for Raspberry Pi.) The model folder has all the results of the trained models on the datasets. In addition, the visualization and image pre-processing folder shows how to visualize the model and how to manipulate the images. Note the dataset is not included but you can make your own as it will be suggested below.
+You have the three main scripts to run the project. The predict.py used to predict language from the given image, and both the other file use live-stream video feeds to make a prediction (predictPC for laptops and predictRPi for Raspberry Pi.) The model folder has all the results of the trained models on the datasets. Also, the visualization and image pre-processing folder shows how to visualize the model and how to manipulate the images. Note that I did not include the datasets but you can make your own as suggested below.
 
 # There are three different version of datasets used in this project:
 Version 1: random images that have a specified text init with a different environment.
@@ -44,7 +44,7 @@ $ python predict.py --model location/simple_nn1.model --label-bin location/simpl
 Please check out the project website,https://sites.google.com/stevens.edu/font-recognition/. Also, please check out the Youtube video about the project, https://www.youtube.com/watch?feature=youtu.be&v=iBfhAOs8fxo.
 
 # Contribute 
-Feel free to fork this repository and make your own changes.
+Feel free to fork this repository and make your changes.
 
 
 
